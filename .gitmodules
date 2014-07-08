@@ -1,0 +1,3 @@
+[submodule "Libraries/Quick"]
+	path = Libraries/Quick
+	url = git@github.com:Quick/Quick.git
