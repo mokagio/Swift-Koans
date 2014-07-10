@@ -11,7 +11,7 @@
 		3F4CCCC3196C707D00DBD2A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4CCCC2196C707D00DBD2A1 /* ViewController.swift */; };
 		3F4CCCC6196C707D00DBD2A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4CCCC4196C707D00DBD2A1 /* Main.storyboard */; };
 		3F4CCCC8196C707D00DBD2A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F4CCCC7196C707D00DBD2A1 /* Images.xcassets */; };
-		3F4CCCD4196C707D00DBD2A1 /* SwiftKonasSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4CCCD3196C707D00DBD2A1 /* SwiftKonasSpec.swift */; };
+		3F67113A196F120E00EF79C1 /* IncrementOperatorsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F671139196F120E00EF79C1 /* IncrementOperatorsSpec.swift */; };
 		3FA6CC60196C9D3800876BEC /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA6CC59196C9D2C00876BEC /* Quick.framework */; };
 		3FA6CC61196C9D4300876BEC /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA6CC4A196C9D1800876BEC /* Nimble.framework */; };
 /* End PBXBuildFile section */
@@ -91,7 +91,7 @@
 		3F4CCCC7196C707D00DBD2A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3F4CCCCD196C707D00DBD2A1 /* Swift-KoansTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-KoansTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F4CCCD2196C707D00DBD2A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F4CCCD3196C707D00DBD2A1 /* SwiftKonasSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftKonasSpec.swift; sourceTree = "<group>"; };
+		3F671139196F120E00EF79C1 /* IncrementOperatorsSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncrementOperatorsSpec.swift; sourceTree = "<group>"; };
 		3FA6CC40196C9D1800876BEC /* Nimble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nimble.xcodeproj; path = Libraries/Quick/Nimble/Nimble.xcodeproj; sourceTree = "<group>"; };
 		3FA6CC51196C9D2C00876BEC /* Quick.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quick.xcodeproj; path = Libraries/Quick/Quick/Quick.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,8 +158,8 @@
 		3F4CCCD0196C707D00DBD2A1 /* Swift-KoansTests */ = {
 			isa = PBXGroup;
 			children = (
-				3F4CCCD3196C707D00DBD2A1 /* SwiftKonasSpec.swift */,
 				3F4CCCD1196C707D00DBD2A1 /* Supporting Files */,
+				3F671139196F120E00EF79C1 /* IncrementOperatorsSpec.swift */,
 			);
 			path = "Swift-KoansTests";
 			sourceTree = "<group>";
@@ -380,7 +380,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F4CCCD4196C707D00DBD2A1 /* SwiftKonasSpec.swift in Sources */,
+				3F67113A196F120E00EF79C1 /* IncrementOperatorsSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
