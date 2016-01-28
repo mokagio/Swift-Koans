@@ -250,6 +250,7 @@
 		3F4CCCB3196C707D00DBD2A1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = mokagio;
 				TargetAttributes = {
