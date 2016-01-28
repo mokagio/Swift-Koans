@@ -7,14 +7,16 @@ class IncrementOperatorsSpec: QuickSpec {
             describe("the ++VARIABLE operator") {
                 it("increments the variable before returning its value") {
                     var a = 1
-                    expect(++a).to.equal(1)
+                    expect(++a) == 2
+                    expect(a) == 2
                 }
             }
 
             describe("the VARIABLE++ operator") {
                 it("increments the variable after returning its value") {
                     var a = 1
-                    expect(a++).to.equal(0)
+                    expect(a++) == 1
+                    expect(a) == 2
                 }
             }
         }

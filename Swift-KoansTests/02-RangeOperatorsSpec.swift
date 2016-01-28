@@ -7,19 +7,19 @@ class RangeOperatorsSpec : QuickSpec {
             describe("the closed range operator, defines a range that runs from a to b, and includes the values a and b") {
                 let end = 10
                 var counter = 0
-                for i in 1...end {
+                (1...end).forEach { _ in
                     ++counter
                 }
-                expect(counter).to.equal(end)
+                expect(counter) == end
             }
 
             describe("the half-closed range operator, defines a range that runs from a to b, but does not include b") {
                 let end = 10
                 var counter = 0
-                for i in 1..<end {
+                (1..<end).forEach { _ in
                     ++counter
                 }
-                expect(counter).to.equal(end - 1)
+                expect(counter) == end - 1
             }
         }
     }
